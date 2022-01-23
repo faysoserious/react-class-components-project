@@ -9,7 +9,12 @@ This is a Yelp-like website.
 Developed through the following process:
 
 1. Creating Static Components
+   1. Business
+   2. BusinessList
+   3. SearchBar
 2. Passing information to Components
+   1. Moved business information to the container component (App)
+   2. Passed information from parent components (App) to child components (BusinessList, Business)
 3. Setting the State of Ravenous Components
 4. Interacting with the Yelp API
 

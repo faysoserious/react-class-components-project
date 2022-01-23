@@ -2,13 +2,10 @@
   width: 1024px;
   margin: 5rem auto;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
-.row {
-  display: flex;
-  justify-content: space-around;
-}
+
 
 @media only screen 
   and (max-device-width: 812px) 
