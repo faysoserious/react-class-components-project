@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+# Ravenous
+
+## Introduction
+
+This is a Yelp-like website. 
+
+### Process
+
+Developed through the following process:
+
+1. Creating Static Components
+2. Passing information to Components
+3. Setting the State of Ravenous Components
+4. Interacting with the Yelp API
+
+### Understand user needs
+
+- As a user, I should be able to search for restaurants
+- As a user, I should be able to view a list of restaurants returned by the Yelp API
+- As a user, I should be able to sort through restaurants using a filter
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

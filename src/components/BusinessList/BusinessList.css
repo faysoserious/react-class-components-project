@@ -1,0 +1,23 @@
+.BusinessList {
+  width: 1024px;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .BusinessList {
+      width: 100%;
+    }
+    .BusinessList .row {
+      flex-direction: column;
+    }
+
+}

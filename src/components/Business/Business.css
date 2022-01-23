@@ -1,0 +1,65 @@
+h2,
+p,
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+p {
+  font-weight: 300;
+}
+h3 {
+  font-size: 1.125rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  color: #cca353;
+}
+.image-container {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.Business {
+  margin: 0 0.5rem 2.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.Business-information {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.Business-reviews {
+  text-align: right;
+}
+
+@media only screen and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .Business {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2.25rem;
+  }
+  .Business .image-container {
+    width: 18.75rem;
+    height: 18.75rem;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
