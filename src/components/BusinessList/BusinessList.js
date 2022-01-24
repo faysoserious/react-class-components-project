@@ -8,9 +8,7 @@ export class BusinessList extends React.Component {
       <div className="BusinessList">
         {
         this.props.businesses.map(
-          business => <div className="item">
-            <Business business={business} />
-            </div>
+          business => <div className="item"><Business business={business} /></div>
           
         )
         }

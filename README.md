@@ -16,6 +16,11 @@ Developed through the following process:
    1. Moved business information to the container component (App)
    2. Passed information from parent components (App) to child components (BusinessList, Business)
 3. Setting the State of Ravenous Components
+   1. Setting state and handling state changes of SearchBar component.
+   - Add a SearchBar Constructor
+   - Get a Sort Option's Class
+   - Handle a Change in Sort Option
+   - Set the Class Name of a Sort Option
 4. Interacting with the Yelp API
 
 ### Understand user needs
@@ -23,7 +28,6 @@ Developed through the following process:
 - As a user, I should be able to search for restaurants
 - As a user, I should be able to view a list of restaurants returned by the Yelp API
 - As a user, I should be able to sort through restaurants using a filter
-
 
 ## Getting Started with Create React App
 
