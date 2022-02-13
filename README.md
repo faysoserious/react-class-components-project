@@ -1,10 +1,20 @@
 # Ravenous
+Click on the link to view the outcome.
+<https://faysoserious.github.io/react-class-components-project/>
+
+Used CORS anywhere to enables cross-origin requests to anywhere. So before searching, need to open [this page](https://cors-anywhere.herokuapp.com/), to allow this service.
 
 ## Introduction
 
 This is a Yelp-like website. 
 
-### Process
+### Understand user needs
+
+- As a user, I should be able to search for restaurants
+- As a user, I should be able to view a list of restaurants returned by the Yelp API
+- As a user, I should be able to sort through restaurants using a filter
+
+### Implementation Process
 
 Developed through the following process:
 
@@ -17,17 +27,19 @@ Developed through the following process:
    2. Passed information from parent components (App) to child components (BusinessList, Business)
 3. Setting the State of Ravenous Components
    1. Setting state and handling state changes of SearchBar component.
-   - Add a SearchBar Constructor
-   - Get a Sort Option's Class
-   - Handle a Change in Sort Option
-   - Set the Class Name of a Sort Option
-4. Interacting with the Yelp API
+      - Add a SearchBar Constructor
+      - Get a Sort Option's Class
+      - Handle a Change in Sort Option
+      - Set the Class Name of a Sort Option
+4. Connect with the Yelp API, fetch the search result.
+5. Hide the API key before push to github. Refer to [this page](https://stackoverflow.com/questions/48699820/how-do-i-hide-api-key-in-create-react-app). According to the question on stackoverflow, it is not the best solution to hide API key using method like this. **Nothing is secure on the client-side.**
 
-### Understand user needs
+## Current issues
 
-- As a user, I should be able to search for restaurants
-- As a user, I should be able to view a list of restaurants returned by the Yelp API
-- As a user, I should be able to sort through restaurants using a filter
+1. When Resturant name is too long, then it will enlarge the description element, so the line was broken. 
+2. The location has to be precise city names, otherwise will not show result. 
+
+
 
 ## Getting Started with Create React App
 
